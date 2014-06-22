@@ -13,7 +13,11 @@ To use this, simply clone the source code:
     git clone https://github.com/parndt/netguard
 
 Afterward, enter the directory and configure `secret.yml` with the actual values
-from your card.  Make sure to keep this safe: don't commit it to source control!
+from your card.
+
+    cp secret.yml.example secret.yml
+
+Make sure to keep this safe: don't commit it to source control!
 
 ## Usage
 
