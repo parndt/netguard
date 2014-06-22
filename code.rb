@@ -8,6 +8,6 @@ codes = YAML.safe_load(
 
 chars = []
 ARGV.each do |coordinate|
-  chars << codes[coordinate.chars.first.to_s][coordinate.chars.last.to_i]
+  chars << codes[coordinate.chars.first.to_s.downcase][coordinate.chars.last.to_i]
 end
 puts chars.join(' ')
